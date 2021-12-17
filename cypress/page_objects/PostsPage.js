@@ -2,10 +2,10 @@
 
 class PostsPage {
   LaunchNotFoundPage() {
-    cy.visit("http://localhost:3000/api/posts/nacho")
+    cy.visit("https://compass-app-front.herokuapp.com/api/posts/nacho")
   }
   LaunchPostsPage() {
-    cy.visit("http://localhost:3000/")
+    cy.visit("https://compass-app-front.herokuapp.com/")
   }
   NotFoundResponse(text) {
     this.LaunchNotFoundPage()

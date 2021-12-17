@@ -1,5 +1,42 @@
 # Challenge Frontend
 
+## Resolución de Tests
+
+### **Test Final con Cypress**
+* Casos de Pruebas: **5**
+* Casos de pruebas Correctos: **5/5**
+
+![result-test](images/result-test.png)
+
+--------------------------------------------------------------
+
+### Implementación
+
+Realizo un `Exploritory Testing` manual para tener más detalle de la APP.
+
+Aplico algunos principios `SOLID` al usar el patron de diseño `Page Objects` para desarrollar unos scripts escalables y de fácil mantenimiento; (teniendo en cuenta que el desarrollo estaba hecho), aplico `BDD` para realizar los test unitarios y de integración con base a principios de `Clean Code` y aplicando las `Best Practices` recomendadas por el framework utilizado `Cypress`.
+
+Aseguro un `100%` los casos de pruebas, cubriendo así mismo los casos en que la api funciona de forma correcta y de forma incorrecta.
+
+--------------------------------------------------------------
+
+### CI
+
+Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las instrucciones necesarias para llevar a cabo la ejecución de un pipeline de CI que se encarga de ejecutar los `Test` sí se hace un `push` o un `Pull Request` a la rama `Main` (Esto es orquestado por `Github Actions` de forma automatizada).
+
+**Resultado de Ejecución**
+
+![ci-result](images/ci-result.png)
+
+
+--------------------------------------------------------------
+
+## Ejecución Local
+
+> Ejecuta los comandos: `npm install`, `npm start` y luego `npm run cypress`
+
+--------------------------------------------------------------
+
 ## Requerimientos
 
 Armar una web donde se vean los post de la misma manera que en la imagen adjunta y lleven a la web del post, que lo único que tiene que hacer es mostrar el post con el mismo componente que se usa en la web anterior, sin nada mas.
