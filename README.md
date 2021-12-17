@@ -8,9 +8,13 @@
 
 ![result-test](images/result-test.png)
 
+Casos de Pruebas: 
+
+![result-cases](images/result-cases.png)
+
 --------------------------------------------------------------
 
-### Implementación
+## Implementación - Test
 
 Realizo un `Exploritory Testing` manual para tener más detalle de la APP.
 
@@ -20,7 +24,7 @@ Aseguro un `100%` los casos de pruebas, cubriendo así mismo los casos en que la
 
 --------------------------------------------------------------
 
-### CI
+## CI - Test
 
 Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las instrucciones necesarias para llevar a cabo la ejecución de un pipeline de CI que se encarga de ejecutar los `Test` sí se hace un `push` o un `Pull Request` a la rama `Main` (Esto es orquestado por `Github Actions` de forma automatizada).
 
@@ -31,7 +35,7 @@ Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las
 
 --------------------------------------------------------------
 
-## Ejecución Local
+## Ejecución Local - Test
 
 > Ejecuta los comandos: `npm install`, `npm start` y luego `npm run cypress`
 
