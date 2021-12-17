@@ -4,7 +4,7 @@
 
 ### **Test Final con Cypress**
 * Casos de Pruebas: **5**
-* Casos de pruebas Correctos: **5/5**
+* Casos de pruebas Correctos: **5/5** 
 
 ![result-test](images/result-test.png)
 
