@@ -1,6 +1,6 @@
 # Challenge Frontend
 
-## Resolución de Tests 
+## Resolución de Tests
 
 ### **Test Final con Cypress**
 * Casos de Pruebas: **5**
